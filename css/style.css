@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+}
+
+#game-board {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.letter-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+  margin: 2px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid gainsboro;
+  border-radius: 3px;
+}
+
+.filled-box {
+  border: 2px solid black;
+}
+
+.letter-row {
+  display: flex;
+}
+
+#keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+#keyboard div {
+  display: flex;
+}
+
+.second-row {
+  margin: 0.5rem 0;
+}
+
+.keyboard-button {
+  margin: 0 3px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: sans-serif;
+  background-color: #efefef;
+  color: tomato;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+}
